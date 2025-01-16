@@ -1,7 +1,7 @@
 {
   "name": "avna-website",
   "version": "0.1.0",
-  "homepage": "https://webdesigner251.github.io/Avna-Website/",
+  "homepage": "https://webdesigner251.github.io/Avna-Website",
   "private": true,
   "dependencies": {
     "aos": "^2.3.4",
