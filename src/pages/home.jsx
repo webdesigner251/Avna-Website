@@ -21,7 +21,10 @@ import AboutImage2 from '../assets/Images/about2.png'
 import AboutImage3 from '../assets/Images/about3.png'
 import CerificateOne from '../assets/Images/certificate-1.png'
 import CerificateTwo from '../assets/Images/certificate-2.png'
-import CerificateThree from '../assets/Images/certificate-3.png'
+import CerificateThree from '../assets/Images/certificate-3.jpeg'
+import CerificateFour from '../assets/Images/certificate-4.jpeg'
+import CerificateFive from '../assets/Images/certificate-5.jpeg'
+import CerificateSix from '../assets/Images/certificate-6.jpeg'
 import CounterTopdivider from '../assets/Images/layered-wave.svg'
 import { ReactComponent as Ratingstar } from '../assets/icons/star.svg'
 import { ReactComponent as UserIcon } from '../assets/icons/user.svg'
@@ -55,7 +58,7 @@ const Home = () => {
                         <div className="inner-wrapper slide1">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-xxl-8 col-lg-10" data-aos="fade-right"  data-aos-duration="2000">
+                                    <div className="col-xxl-8 col-lg-10" data-aos="fade-right" data-aos-duration="2000">
                                         <div className="banner-subtitle text-white"><DNAIcon className="svg-fill-white" /> welcome to Avnain</div>
                                         <h1 className="hero-heading sora-font">Quality Global <span
                                             className="fw-normal">Outreach Services</span></h1>
@@ -71,7 +74,7 @@ const Home = () => {
                         <div className="inner-wrapper slide2">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-xxl-8 col-lg-10" data-aos="fade-right"  data-aos-duration="2000">
+                                    <div className="col-xxl-8 col-lg-10" data-aos="fade-right" data-aos-duration="2000">
                                         <div className="banner-subtitle text-white"><DNAIcon className="svg-fill-white" />Welcome to Avnain</div>
                                         <h2 className="hero-heading sora-font">Laboratory & <span className="fw-normal"> Medical
                                             Research</span></h2>
@@ -103,7 +106,7 @@ const Home = () => {
                         <div className="col-lg-6">
                             <div className="row position-relative z-1" >
                                 <img src={AboutImage1} alt="About" width="100%" height="100%" />
-                                <img src={AboutImage2} className='about-image-2 about-img infinite-slide' alt="About" width="100%" height="100%"/>
+                                <img src={AboutImage2} className='about-image-2 about-img infinite-slide' alt="About" width="100%" height="100%" />
                                 <img src={AboutImage3} className='about-image-3 about-img infinite-slide2' alt="About" width="100%" height="100%" />
                             </div>
 
@@ -271,8 +274,11 @@ const Home = () => {
                         <div className="col-lg-5 text-lg-start text-center">
                             <div className="banner-subtitle secondary-text"><DNAIcon className="" />Quality Global Outreach</div>
                             <h2 className='section-title my-sm-2 my-0'>Our Certifications</h2>
-                            <p className='para-text my-3'>We are proud to hold certifications that demonstrate our commitment to quality and excellence in our field.</p>
+                            {/* <p className='para-text my-3'>We are proud to hold certifications that demonstrate our commitment to quality and excellence in our field.</p> */}
+                            <p className='para-text my-3'>We are the largest exporter of pharmaceutical, nutraceutical, and cosmeceutical products into various countries across the world with quality and certifications that are simply unmatched, be it the EU-GMP approval, PIC/S approval, WHO-GMP approval, and USFDA approval.</p>
+
                         </div>
+
                         <div className="col-lg-7" data-aos="fade-left" data-aos-duration="2000">
                             <Swiper
                                 slidesPerView={1}
@@ -312,22 +318,23 @@ const Home = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="certificate-box">
-                                        <img src={CerificateOne} alt="Cerificate one" width='100%' height="100%" />
+                                        <img src={CerificateFour} alt="Cerificate three" width='100%' height="100%" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="certificate-box">
-                                        <img src={CerificateTwo} alt="Cerificate two" width='100%' height="100%" />
+                                        <img src={CerificateFive} alt="Cerificate three" width='100%' height="100%" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="certificate-box">
-                                        <img src={CerificateThree} alt="Cerificate three" width='100%' height="100%" />
+                                        <img src={CerificateSix} alt="Cerificate three" width='100%' height="100%" />
                                     </div>
                                 </SwiperSlide>
+
                             </Swiper>
                         </div>
-                    </div>                   
+                    </div>
                 </div>
             </section>
 

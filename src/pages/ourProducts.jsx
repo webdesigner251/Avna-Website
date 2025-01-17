@@ -32,7 +32,7 @@ const OurProducts = () => {
                                     <ProductIcon1 className="pro-icon" />
                                 </div>
                                 <div className="right-wrapper">
-                                    <h3 className="pro-title">pharmaceutical</h3>
+                                    <h3 className="pro-title">Capsules</h3>
                                     <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
                                 </div>
                             </Link>
@@ -43,7 +43,7 @@ const OurProducts = () => {
                                     <ProductIcon2 className="pro-icon" />
                                 </div>
                                 <div className="right-wrapper">
-                                    <h3 className="pro-title">nutraceuticals</h3>
+                                    <h3 className="pro-title">Combi Kit</h3>
                                     <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
                                 </div>
                             </Link>
@@ -54,14 +54,117 @@ const OurProducts = () => {
                                     <ProductIcon3 className="pro-icon" />
                                 </div>
                                 <div className="right-wrapper">
-                                    <h3 className="pro-title">ayurvedic</h3>
+                                    <h3 className="pro-title">Creams \ ointment</h3>
                                     <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
                                 </div>
                             </Link>
                         </div>
-                        <div className="col-12 text-center mt-sm-5 mt-4">
-                            <Link className="btn-grad d-inline-flex align-items-center justify-content-center text-uppercase">View More</Link>
+                        <div className="col-xl-4 col-md-6 col-sm-12 my-sm-3 my-2">
+                            <Link className="product-box" to="/product-view">
+                                <div className="img-wrapper">
+                                    <ProductIcon3 className="pro-icon" />
+                                </div>
+                                <div className="right-wrapper">
+                                    <h3 className="pro-title">Dry Syrup</h3>
+                                    <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
+                                </div>
+                            </Link>
                         </div>
+
+                        <div className="col-xl-4 col-md-6 col-sm-12 my-sm-3 my-2">
+                            <Link className="product-box" to="/product-view">
+                                <div className="img-wrapper">
+                                    <ProductIcon3 className="pro-icon" />
+                                </div>
+                                <div className="right-wrapper">
+                                    <h3 className="pro-title">Eye \ ear \ nasal Drops</h3>
+                                    <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
+                                </div>
+                            </Link>
+                        </div>
+
+                        <div className="col-xl-4 col-md-6 col-sm-12 my-sm-3 my-2">
+                            <Link className="product-box" to="/product-view">
+                                <div className="img-wrapper">
+                                    <ProductIcon3 className="pro-icon" />
+                                </div>
+                                <div className="right-wrapper">
+                                    <h3 className="pro-title">Injectable</h3>
+                                    <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
+                                </div>
+                            </Link>
+                        </div>
+
+                        <div className="col-xl-4 col-md-6 col-sm-12 my-sm-3 my-2">
+                            <Link className="product-box" to="/product-view">
+                                <div className="img-wrapper">
+                                    <ProductIcon3 className="pro-icon" />
+                                </div>
+                                <div className="right-wrapper">
+                                    <h3 className="pro-title">Liquid External</h3>
+                                    <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
+                                </div>
+                            </Link>
+                        </div>
+
+                        <div className="col-xl-4 col-md-6 col-sm-12 my-sm-3 my-2">
+                            <Link className="product-box" to="/product-view">
+                                <div className="img-wrapper">
+                                    <ProductIcon3 className="pro-icon" />
+                                </div>
+                                <div className="right-wrapper">
+                                    <h3 className="pro-title">Liquid Orals</h3>
+                                    <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-xl-4 col-md-6 col-sm-12 my-sm-3 my-2">
+                            <Link className="product-box" to="/product-view">
+                                <div className="img-wrapper">
+                                    <ProductIcon3 className="pro-icon" />
+                                </div>
+                                <div className="right-wrapper">
+                                    <h3 className="pro-title">Powder</h3>
+                                    <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-xl-4 col-md-6 col-sm-12 my-sm-3 my-2">
+                            <Link className="product-box" to="/product-view">
+                                <div className="img-wrapper">
+                                    <ProductIcon3 className="pro-icon" />
+                                </div>
+                                <div className="right-wrapper">
+                                    <h3 className="pro-title">Suppositories</h3>
+                                    <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-xl-4 col-md-6 col-sm-12 my-sm-3 my-2">
+                            <Link className="product-box" to="/product-view">
+                                <div className="img-wrapper">
+                                    <ProductIcon3 className="pro-icon" />
+                                </div>
+                                <div className="right-wrapper">
+                                    <h3 className="pro-title">Tablets</h3>
+                                    <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-xl-4 col-md-6 col-sm-12 my-sm-3 my-2">
+                            <Link className="product-box" to="/product-view">
+                                <div className="img-wrapper">
+                                    <ProductIcon3 className="pro-icon" />
+                                </div>
+                                <div className="right-wrapper">
+                                    <h3 className="pro-title">Veterinary Tablets</h3>
+                                    <span className="pro-link">Learn More <ExploreArrow className="icon" /> </span>
+                                </div>
+                            </Link>
+                        </div>
+                        {/* <div className="col-12 text-center mt-sm-5 mt-4">
+                            <Link className="btn-grad d-inline-flex align-items-center justify-content-center text-uppercase">View More</Link>
+                        </div> */}
                         {/* <div className="col-lg-4 col-md-6 col-sm-12 my-3">
                             <div className="product-box">
                                 <div className="img-wrapper">

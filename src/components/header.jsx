@@ -1,5 +1,5 @@
 
-import React, { useState , useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Logo from '../assets/Images/logo.png';
 // importing aos
@@ -20,7 +20,7 @@ const Header = () => {
 
     useEffect(() => {
         AOS.init();
-      }, [])
+    }, [])
 
     return (
         <header>
@@ -43,10 +43,10 @@ const Header = () => {
                                     <Link className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`} to="/about" onClick={closeNavbar}>About Us</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className={`nav-link ${location.pathname === '/services' ? 'active' : ''}`} to="/services" onClick={closeNavbar}>Our Services</Link>
+                                    <Link className={`nav-link ${location.pathname === '/products' ? 'active' : ''}`} to="/products" onClick={closeNavbar}>Our Products</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className={`nav-link ${location.pathname === '/products' ? 'active' : ''}`} to="/products" onClick={closeNavbar}>Our Products</Link>
+                                    <Link className={`nav-link ${location.pathname === '/blogs' ? 'active' : ''}`} to="/blogs" onClick={closeNavbar}>Our Blogs</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact" onClick={closeNavbar}>Contact Us</Link>

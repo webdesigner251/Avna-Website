@@ -47,7 +47,7 @@ const Contact = () => {
                                         </div>
                                         <div>
                                             <h4 className="title-text">Contact Us</h4>
-                                            <a href="mailto:info@avnain.com" className="link">info@avnain.com</a>
+                                            <Link href="mailto:info@avnain.com" className="link">info@avnain.com</Link>
                                         </div>
                                     </div>
                                     <div className="col-12 icon-box">
@@ -56,7 +56,7 @@ const Contact = () => {
                                         </div>
                                         <div>
                                             <h4 className="title-text">Call Us</h4>
-                                            <a href="tel:+1234567890" className="link">+91 1234567890</a>
+                                            <Link href="tel:+8000041402" className="link">+91 8000041402</Link>
                                         </div>
                                     </div>
                                     <div className="col-12 icon-box">
@@ -65,7 +65,7 @@ const Contact = () => {
                                         </div>
                                         <div>
                                             <h4 className="title-text">Locations</h4>
-                                            <p className="link mb-0"> Gujarat, India</p>
+                                            <Link href="https://www.google.com/maps/search/s.one+complex,+b-417,+circle,+near+Gujarat+high+court,+Shayona+City,+Chanakyapuri,+Ahmedabad,+Gujarat+380061/@23.079098,72.531832,13z?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" target='_blank' className="link mb-0">s.one complex, b-417, circle, near Gujarat high court, Shayona City, Chanakyapuri, Ahmedabad, Gujarat 380061.</Link>
 
                                         </div>
                                     </div>

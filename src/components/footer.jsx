@@ -47,13 +47,13 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div className="footer-widget">
                             <h5 className="footer-widget-title">Contact</h5>
-                            <Link className="cursor icon-box call mb-3" href="tel:+911234567890">
+                            <Link className="cursor icon-box call mb-3" to="tel:+8000041402">
                                 <span>
                                     <CallIcon />
                                 </span>
-                                +91 1234567890
+                                +91 8000041402
                             </Link>
-                            <Link className="cursor icon-box" href="mailto:info@cygnox.com">
+                            <Link className="cursor icon-box" to="mailto:info@cygnox.com">
                                 <span>
                                     <EmailIcon />
                                 </span>
@@ -61,18 +61,18 @@ const Footer = () => {
                             </Link>
 
                             <h5 className="footer-widget-title mt-4">Address</h5>
-                            <div className="icon-box">
+                            <Link className="icon-box" to="https://www.google.com/maps/search/s.one+complex,+b-417,+circle,+near+Gujarat+high+court,+Shayona+City,+Chanakyapuri,+Ahmedabad,+Gujarat+380061/@23.079098,72.531832,13z?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" target='_blank'>
                                 <span>
                                     <MapIcon />
                                 </span>
-                                Ahmedabad, India
-                            </div>
+                                s.one complex, b-417, circle, near Gujarat high court, Shayona City, Chanakyapuri, Ahmedabad, Gujarat 380061.
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="copyright">
-                <p>Copyright © 2025 AVNA. All Rights Reserved.</p>
+                <p>Copyright © 2025 AVNA. All Rights Reserved. Design & Developed by <Link to="https://inspirefox.com/">InspireFox</Link></p>
             </div>
         </footer>
     );
