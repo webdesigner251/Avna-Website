@@ -5,7 +5,7 @@ import { ReactComponent as ExploreArrow } from '../assets/icons/double-arrow.svg
 
 const ProductView = () => {
     // State to manage active tab
-    const [activeTab, setActiveTab] = useState('tablets');
+    const [activeTab, setActiveTab] = useState('capsules');
 
     // Function to change active tab
     const handleTabClick = (tabName) => {
