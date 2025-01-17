@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/Avna-Website/static/css/main.9a064a64.css",
-    "main.js": "/Avna-Website/static/js/main.61ccf419.js",
+    "main.css": "/Avna-Website/static/css/main.2df25cf4.css",
+    "main.js": "/Avna-Website/static/js/main.4bfeed5b.js",
     "static/media/about3.png": "/Avna-Website/static/media/about3.77babb6863f9da33e5f1.png",
     "static/media/globe-img.jpg": "/Avna-Website/static/media/globe-img.b75722ce28c6181a65f9.jpg",
     "static/media/about2.png": "/Avna-Website/static/media/about2.6a4074f7aa13648cc8f5.png",
     "static/media/banner3.png": "/Avna-Website/static/media/banner3.deeed32fbc7ee764388f.png",
-    "static/media/services-banner.jpg": "/Avna-Website/static/media/services-banner.9b5969c7c6028a797590.jpg",
     "static/media/service-01.png": "/Avna-Website/static/media/service-01.25b399abb95f3e459b55.png",
     "static/media/tablets.png": "/Avna-Website/static/media/tablets.968eb6842c55e9640768.png",
     "static/media/service-02.png": "/Avna-Website/static/media/service-02.1c1f03b2692d1ef8732a.png",
@@ -16,14 +15,21 @@
     "static/media/banner1.png": "/Avna-Website/static/media/banner1.d879c8c4e3185fb29ee4.png",
     "static/media/banner2.jpg": "/Avna-Website/static/media/banner2.41798eb6fc2fa6aafe5e.jpg",
     "static/media/certificate-2.png": "/Avna-Website/static/media/certificate-2.35a07d415338d9f14736.png",
-    "static/media/certificate-3.png": "/Avna-Website/static/media/certificate-3.fec5fd7eeacee27fc013.png",
+    "static/media/blog3.jpg": "/Avna-Website/static/media/blog3.6c34bf9a9e6b5d3283de.jpg",
     "static/media/product-banner.jpg": "/Avna-Website/static/media/product-banner.e9dcdc106333d975ea0b.jpg",
     "static/media/vision-image.jpg": "/Avna-Website/static/media/vision-image.3792914843aa6c30c316.jpg",
     "static/media/certificate-1.png": "/Avna-Website/static/media/certificate-1.9c9a6d74783ccdada7ba.png",
+    "static/media/blog1.png": "/Avna-Website/static/media/blog1.d7db097f35ef580ef1a0.png",
     "static/media/bg-drawing.png": "/Avna-Website/static/media/bg-drawing.bd7d36379911bdcd3e1a.png",
     "static/media/mission-image.jpg": "/Avna-Website/static/media/mission-image.9ad8b1dd1a15f2f3e30d.jpg",
+    "static/media/blog2.jpg": "/Avna-Website/static/media/blog2.c29d0996e428386a4a8b.jpg",
     "static/media/map-bg.png": "/Avna-Website/static/media/map-bg.bc7d0191043ffdee2881.png",
+    "static/media/thankyou-teddy.svg": "/Avna-Website/static/media/thankyou-teddy.c5b03e2cdafea7a2a85ea5cb2321a209.svg",
+    "static/media/certificate-5.jpeg": "/Avna-Website/static/media/certificate-5.b1a1506d502b5e9667e5.jpeg",
+    "static/media/certificate-3.jpeg": "/Avna-Website/static/media/certificate-3.fd02e8825132cf3722b1.jpeg",
     "static/media/logo.png": "/Avna-Website/static/media/logo.40026631a0a04cac6433.png",
+    "static/media/certificate-6.jpeg": "/Avna-Website/static/media/certificate-6.5a89bf13cd1f7accec0f.jpeg",
+    "static/media/certificate-4.jpeg": "/Avna-Website/static/media/certificate-4.7dd6c06ea523f111824c.jpeg",
     "static/media/service-icon-01.svg": "/Avna-Website/static/media/service-icon-01.f767ad738977a5e0f8387f4750da0136.svg",
     "static/media/service-icon-03.svg": "/Avna-Website/static/media/service-icon-03.ae3faf591a150d56cde944ea4fe9a6db.svg",
     "static/media/service-icon-02.svg": "/Avna-Website/static/media/service-icon-02.f53ca7285bd2bd8ee31e12ee32938d76.svg",
@@ -39,15 +45,16 @@
     "index.html": "/Avna-Website/index.html",
     "static/media/right-arrow.svg": "/Avna-Website/static/media/right-arrow.baff8e48c34fe90ee8493cd3ea745d2b.svg",
     "static/media/map.svg": "/Avna-Website/static/media/map.b89d8f27a514cdb7261d0fa209b36260.svg",
+    "static/media/close-icon.svg": "/Avna-Website/static/media/close-icon.ce7cb04629907c5a6207bf8a7ab55d1a.svg",
     "static/media/double-arrow.svg": "/Avna-Website/static/media/double-arrow.a384bcf21abfbb4c180da35cfbd14190.svg",
     "static/media/intersecting-wave-layers.svg": "/Avna-Website/static/media/intersecting-wave-layers.51a7ba83151265e71dc339673a5d6137.svg",
     "static/media/layered-wave.svg": "/Avna-Website/static/media/layered-wave.9e452a18a401a6e096463e306b2bf874.svg",
     "static/media/star.svg": "/Avna-Website/static/media/star.337ba16ec11830b632999cf79a0b4f2c.svg",
-    "main.9a064a64.css.map": "/Avna-Website/static/css/main.9a064a64.css.map",
-    "main.61ccf419.js.map": "/Avna-Website/static/js/main.61ccf419.js.map"
+    "main.2df25cf4.css.map": "/Avna-Website/static/css/main.2df25cf4.css.map",
+    "main.4bfeed5b.js.map": "/Avna-Website/static/js/main.4bfeed5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a064a64.css",
-    "static/js/main.61ccf419.js"
+    "static/css/main.2df25cf4.css",
+    "static/js/main.4bfeed5b.js"
   ]
 }
