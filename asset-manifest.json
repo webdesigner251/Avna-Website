@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Avna-Website/static/css/main.2df25cf4.css",
-    "main.js": "/Avna-Website/static/js/main.e877a3c5.js",
+    "main.js": "/Avna-Website/static/js/main.11022280.js",
     "static/media/about3.png": "/Avna-Website/static/media/about3.77babb6863f9da33e5f1.png",
     "static/media/globe-img.jpg": "/Avna-Website/static/media/globe-img.b75722ce28c6181a65f9.jpg",
     "static/media/about2.png": "/Avna-Website/static/media/about2.6a4074f7aa13648cc8f5.png",
@@ -51,10 +51,10 @@
     "static/media/layered-wave.svg": "/Avna-Website/static/media/layered-wave.9e452a18a401a6e096463e306b2bf874.svg",
     "static/media/star.svg": "/Avna-Website/static/media/star.337ba16ec11830b632999cf79a0b4f2c.svg",
     "main.2df25cf4.css.map": "/Avna-Website/static/css/main.2df25cf4.css.map",
-    "main.e877a3c5.js.map": "/Avna-Website/static/js/main.e877a3c5.js.map"
+    "main.11022280.js.map": "/Avna-Website/static/js/main.11022280.js.map"
   },
   "entrypoints": [
     "static/css/main.2df25cf4.css",
-    "static/js/main.e877a3c5.js"
+    "static/js/main.11022280.js"
   ]
 }
