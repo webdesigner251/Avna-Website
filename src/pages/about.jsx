@@ -220,7 +220,7 @@ const About = () => {
                         <div className="col-lg-5 text-lg-start text-center">
                             <div className="banner-subtitle secondary-text"><DNAIcon className="" />Quality Global Outreach</div>
                             <h2 className='section-title my-sm-2 my-0'>Our Certifications</h2>
-                            <p className='para-text my-3'>We are proud to hold certifications that demonstrate our commitment to quality and excellence in our field.</p>
+                            <p className='para-text my-3'>We are the largest exporter of pharmaceutical, nutraceutical, and cosmeceutical products into various countries across the world with quality and certifications that are simply unmatched, be it the EU-GMP approval, PIC/S approval, WHO-GMP approval, and USFDA approval.</p>
                         </div>
                         <div className="col-lg-7" data-aos="fade-left" data-aos-duration="2000">
                             <Swiper

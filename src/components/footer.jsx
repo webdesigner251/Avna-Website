@@ -72,7 +72,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright">
-                <p>Copyright © 2025 AVNA. All Rights Reserved. Design & Developed by <Link to="https://inspirefox.com/">InspireFox</Link></p>
+                <p>Copyright © 2025 AVNA. All Rights Reserved. Design & Developed by <Link to="https://inspirefox.com/" target='_blank'>InspireFox</Link></p>
             </div>
         </footer>
     );
