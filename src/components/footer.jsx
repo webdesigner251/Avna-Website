@@ -25,9 +25,9 @@ const Footer = () => {
                         <div className="footer-widget">
                             <h5 className="footer-widget-title">Services</h5>
                             <ul>
-                                <li className="link"><Link to="/services">Export Assistance </Link></li>
-                                <li className="link"><Link to="/services">Product Development</Link></li>
-                                <li className="link"><Link to="/services">Contract Manufacturing </Link></li>
+                                <li className="link"><Link to="/about">Export Assistance </Link></li>
+                                <li className="link"><Link to="/about">Product Development</Link></li>
+                                <li className="link"><Link to="/about">Contract Manufacturing </Link></li>
                             </ul>
                         </div>
                     </div>
@@ -38,8 +38,9 @@ const Footer = () => {
                             <ul>
                                 <li className="link"><Link to="/">Home</Link></li>
                                 <li className="link"><Link to="/about">About</Link></li>
-                                <li className="link"><Link to="/services">Services</Link></li>
-                                <li className="link"><Link href="/ptoducrs">Products</Link></li>
+                                <li className="link"><Link href="/blogs">Blogs</Link></li>
+                                <li className="link"><Link href="/products">Products</Link></li>
+                                <li className="link"><Link href="/contact">Contact</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -72,8 +73,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright">
-                <p>Copyright © 2025 AVNA. All Rights Reserved. Design & Developed by
-                     <Link to="https://inspirefox.com/" target='_blank'>InspireFox</Link>
+                <p>Copyright © 2025 <Link to='/'>AVNA</Link>. All Rights Reserved. Design & Developed by
+                     <Link to="https://inspirefox.com/" target='_blank'> InspireFox</Link>
                 </p>
             </div>
         </footer>

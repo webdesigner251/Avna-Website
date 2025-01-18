@@ -118,7 +118,7 @@ const About = () => {
                 </div>
             </section>
 
-            <section className="our-services-wrapper py-100">
+            <section className="our-services-wrapper py-100" id="services">
                 <div className="container">
                     <div className="row justify-content-center mb-lg-5 mb-4" data-aos="fade-up" data-aos-duration="3000">
                         <div className="col-lg-7 text-center">

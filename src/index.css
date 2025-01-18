@@ -474,7 +474,7 @@ footer .f-para {
     position: relative;
 }
 
-.copyright p a::after {
+/* .copyright p a::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -484,15 +484,15 @@ footer .f-para {
     left: 0;
     right: 0;
     transition: 0.4s all ease-in-out;
-}
+} */
 
 .copyright p a:hover {
     color: var(--secondary);
 }
 
-.copyright p a:hover::after {
+/* .copyright p a:hover::after {
     background-color: var(--secondary);
-}
+} */
 
 @media (max-width: 992px) {
     footer {
