@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Avna-Website/static/css/main.162202fc.css",
-    "main.js": "/Avna-Website/static/js/main.c58ede26.js",
+    "main.css": "/Avna-Website/static/css/main.3d4fc50e.css",
+    "main.js": "/Avna-Website/static/js/main.590bfadf.js",
     "static/media/about2.png": "/Avna-Website/static/media/about2.e1cc2393dd8251aa5676.png",
     "static/media/banner1.png": "/Avna-Website/static/media/banner1.9097a566b8cc63b4d81c.png",
     "static/media/about3.png": "/Avna-Website/static/media/about3.dd9dbf68c7d7c94c9386.png",
@@ -50,11 +50,11 @@
     "static/media/intersecting-wave-layers.svg": "/Avna-Website/static/media/intersecting-wave-layers.51a7ba83151265e71dc339673a5d6137.svg",
     "static/media/layered-wave.svg": "/Avna-Website/static/media/layered-wave.9e452a18a401a6e096463e306b2bf874.svg",
     "static/media/star.svg": "/Avna-Website/static/media/star.337ba16ec11830b632999cf79a0b4f2c.svg",
-    "main.162202fc.css.map": "/Avna-Website/static/css/main.162202fc.css.map",
-    "main.c58ede26.js.map": "/Avna-Website/static/js/main.c58ede26.js.map"
+    "main.3d4fc50e.css.map": "/Avna-Website/static/css/main.3d4fc50e.css.map",
+    "main.590bfadf.js.map": "/Avna-Website/static/js/main.590bfadf.js.map"
   },
   "entrypoints": [
-    "static/css/main.162202fc.css",
-    "static/js/main.c58ede26.js"
+    "static/css/main.3d4fc50e.css",
+    "static/js/main.590bfadf.js"
   ]
 }
