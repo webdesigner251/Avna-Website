@@ -23,7 +23,7 @@ import Service02 from '../assets/Images/service-02.png'
 import Service03 from '../assets/Images/service-03.png'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 
@@ -214,7 +214,7 @@ const About = () => {
                 </div>
             </section>
 
-            <section className='certificate-wrapper pb-0'>
+            {/* <section className='certificate-wrapper pb-0'>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-5 text-lg-start text-center">
@@ -275,6 +275,76 @@ const About = () => {
                                     </div>
                                 </SwiperSlide>
 
+                            </Swiper>
+                        </div>
+                    </div>
+                </div>
+            </section> */}
+            <section className='certificate-wrapper'>
+                <div className="container">
+                    <div className="row align-items-center justify-content-center">
+                        <div className="col-lg-7 text-center">
+                            <div className="banner-subtitle secondary-text"><DNAIcon className="" />Quality Global Outreach</div>
+                            <h2 className='section-title my-sm-2 my-0'>Our Certifications</h2>
+                            <p className='para-text my-3'>We are the largest exporter of pharmaceutical, nutraceutical, and cosmeceutical products into various countries across the world with quality and certifications that are simply unmatched, be it the EU-GMP approval, PIC/S approval, WHO-GMP approval, and USFDA approval.</p>
+                        </div>
+
+                        <div className="col-lg-12">
+                            <Swiper
+                                slidesPerView={1}
+                                spaceBetween={0}
+                                breakpoints={{
+                                    576: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 0,
+                                    },
+                                }}
+                                loop={true}
+                                speed={6000} // Adjust for smoother scrolling
+                                autoplay={{
+                                    delay: 0, // Continuous autoplay without delay
+                                    disableOnInteraction: false, // Keep autoplay even after user interaction
+                                }}
+                                pagination={true}
+                                modules={[Pagination, Autoplay]} // Ensure Autoplay module is included
+                                className="certificateSlider"
+                            >
+                                <SwiperSlide>
+                                    <div className="certificate-box">
+                                        <img src={CerificateOne} alt="Certificate one" width='100%' height="100%" />
+                                        <span>ISO</span>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="certificate-box">
+                                        <img src={CerificateTwo} alt="Certificate two" width='100%' height="100%" />
+                                        <span>Import Export Code</span>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="certificate-box">
+                                        <img src={CerificateThree} alt="Certificate three" width='100%' height="100%" />
+                                        <span>WHO GMP</span>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="certificate-box">
+                                        <img src={CerificateFour} alt="Certificate four" width='100%' height="100%" />
+                                        <span>USFDA</span>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="certificate-box">
+                                        <img src={CerificateFive} alt="Certificate five" width='100%' height="100%" />
+                                        <span>GMP Certified</span>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="certificate-box">
+                                        <img src={CerificateSix} alt="Certificate six" width='100%' height="100%" />
+                                        <span>EU GMP</span>
+                                    </div>
+                                </SwiperSlide>
                             </Swiper>
                         </div>
                     </div>
