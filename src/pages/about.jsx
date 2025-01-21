@@ -24,7 +24,7 @@ import Service03 from '../assets/Images/service-03.png'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
-// Import Swiper styles
+
 import 'swiper/css';
 
 const About = () => {
